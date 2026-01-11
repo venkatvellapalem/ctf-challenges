@@ -24,7 +24,7 @@ tags:
 
 
 files:
-  - Forensics/"The-Mist's-Shadow"/shadow.pcap
+  - Forensics/The Mist’s Shadow/shadow.pcap
 
 state: visible
 version: "0.1"
