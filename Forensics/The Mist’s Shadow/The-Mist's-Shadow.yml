@@ -1,0 +1,30 @@
+name: "The Mist's Shadow"
+author: "venkatvellapalem"
+category: "Forensics"
+description: |
+  Someone just broke into our private server. We saw a massive wave of login attempts from a group called V0id, and it looks like one of them finally guessed the right key.
+
+  Our security guide saw the whole thing happen. But instead of stopping them, he’s just laughing in the shadows. He says the answer is "hidden in plain sight" and that only a true member of our group would find it.
+
+  **Your Task:** Look through the server logs (the file below). Find out which **username** was hacked and what **password** the intruders used to get in.
+
+  **Flag Format:** CTF{username_password}
+value: 300
+type: standard
+
+# Update these with the actual credentials found in your PCAP
+flags:
+  - CTF{Elf67_snowball}
+
+tags:
+  - forensics
+  - network
+  - ftp
+  - pcap
+
+# This points to the file in your 'challenge' subfolder
+files:
+  - Forensics/"The-Mist's-Shadow"/shadow.pcap
+
+state: visible
+version: "0.1"
