@@ -12,7 +12,7 @@ description: |
 value: 300
 type: standard
 
-# Update these with the actual credentials found in your PCAP
+
 flags:
   - CTF{Elf67_snowball}
 
@@ -22,7 +22,7 @@ tags:
   - ftp
   - pcap
 
-# This points to the file in your 'challenge' subfolder
+
 files:
   - Forensics/"The-Mist's-Shadow"/shadow.pcap
 
